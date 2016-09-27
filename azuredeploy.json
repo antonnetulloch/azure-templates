@@ -135,7 +135,7 @@
       "metadata": {
         "description": "The location of resources, such as templates and DSC modules, that the template depends on"
       },
-      "defaultValue": "C:\Users\atulloch\Source\Repos\azure-quickstart-templates\active-directory-new-domain"
+      "defaultValue": "https://github.com/antonnetulloch/azure-templates"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",
