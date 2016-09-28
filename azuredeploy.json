@@ -146,7 +146,7 @@
     }
   },
   "variables": {
-    "nestedTemplatesFolderName": "nestedtemplates",
+    "nestedTemplatesFolderName": "tree/master/nestedtemplates",
     "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'adsa')]",
     "adLBFE": "LBFE",
     "adLBBE": "LBBE",
@@ -373,7 +373,7 @@
             "typeHandlerVersion": "2.19",
             "autoUpgradeMinorVersion": true,
             "settings": {
-              "ModulesUrl": "[concat(parameters('_artifactsLocation'), '/', 'DSC', '/', 'CreateADPDC.zip', parameters('_artifactsLocationSasToken'))]",
+              "ModulesUrl": "[concat(parameters('_artifactsLocation'), '/', 'tree/master/DSC', '/', 'CreateADPDC.zip', parameters('_artifactsLocationSasToken'))]",
               "ConfigurationFunction": "[variables('adConfigurationFunction')]",
               "Properties": {
                 "DomainName": "[parameters('domainName')]",
